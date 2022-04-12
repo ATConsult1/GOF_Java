@@ -5,6 +5,9 @@ public class Director {
  
  public Director(IBuilder b) {builder = b;}
  
+ public void changeBld(IBuilder b) {builder = b;}
+ 
+ 
 // public IProduct doAll() {
 //	return builder.doA().doB().doFinal();
 // }
