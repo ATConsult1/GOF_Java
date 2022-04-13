@@ -10,6 +10,7 @@ public class Client2CusomerAdapter implements IClientSalute {
 	//...
 	@Override
 	public String sayHello() {
+		//-----
 		return c.sayPrivet();
 	}
 
