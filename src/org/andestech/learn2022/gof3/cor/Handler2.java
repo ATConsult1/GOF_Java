@@ -1,14 +1,14 @@
 package org.andestech.learn2022.gof3.cor;
 
-public class Handler2 implements IHandler {
+public class Handler2 extends AHandler{ //implements IHandler {
 
-private IHandler nextHandler;	
-	
-public IHandler addNext(IHandler h)
-{
-  nextHandler = h;
-  return h;
-}
+//private IHandler nextHandler;	
+//	
+//public IHandler addNext(IHandler h)
+//{
+//  nextHandler = h;
+//  return h;
+//}
 
 private boolean isReadyToHandle(String data)
 {
