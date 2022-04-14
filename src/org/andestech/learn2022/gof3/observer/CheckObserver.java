@@ -11,6 +11,9 @@ public class CheckObserver {
 	Publisher p = new Publisher();
 	p.add(s3).rm(s1);
 	
+	
+	
+	
 	p.updateSubscribers("New books arrived..");
 		
 	}
